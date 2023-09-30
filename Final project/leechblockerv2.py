@@ -97,7 +97,7 @@ app.title("LeechBlocker")
 
 # image_path = get_relative_path("leechblocker-logo-transparent-backgroung.ico")
 
-app.iconbitmap("leechblocker-logo-transparent-backgroung.ico")
+# app.iconbitmap("leechblocker-logo-transparent-backgroung.ico")
 
 app.geometry("1020x500")
 app.resizable(0,0)
