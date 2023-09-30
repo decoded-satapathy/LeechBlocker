@@ -1,5 +1,6 @@
 import customtkinter as ct
 from tkinter import messagebox
+import os
 
 def change_appearance_mode(app):
         ct.set_appearance_mode(optionmenu_1.get())
@@ -89,7 +90,14 @@ ct.set_default_color_theme("blue")
 
 app = ct.CTk()
 app.title("LeechBlocker")
-app.iconbitmap("D:\college stuff\Sem 1\Disruptive Techologies\Sem 1 project\Images required\icon\leechblocker-logo-transparent-backgroung.ico")
+# def get_relative_path(file_name):
+#   """Returns the relative path to the file_name from the current file."""
+#   current_file_path = os.path.realpath(__file__)
+#   return os.path.relpath(file_name, current_file_path)
+
+# image_path = get_relative_path("leechblocker-logo-transparent-backgroung.ico")
+
+app.iconbitmap("leechblocker-logo-transparent-backgroung.ico")
 
 app.geometry("1020x500")
 app.resizable(0,0)
